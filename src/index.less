@@ -23,11 +23,21 @@ body {
   display: none;
 }
 
+.like {
+  z-index: 999;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  color: gold;
+  font-size: 20px;
+  box-shadow: gold 0 0 100px 100px;
+}
+
 #root {
   width: 600px;
 }
 
-.name {
+.wish {
   margin: 16px;
   padding: 8px;
   width: 200px;
@@ -72,20 +82,17 @@ body {
   top: 0px;
   width: inherit;
   height: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .coin0 {
   transform: translateZ(1px);
 
   background-image: url("../public/imgs/coin0.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .coin1 {
   background-image: url("../public/imgs/coin1.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .luck-bg {
