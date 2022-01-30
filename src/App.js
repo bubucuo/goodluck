@@ -44,7 +44,7 @@ export default function App(props) {
     <div className="app">
       <a
         className="like"
-        href="https://juejin.cn/user/3878732755375742/posts"
+        href="https://juejin.cn/post/7058915357561454629"
         target="_blank"
       >
         不准不要赞
