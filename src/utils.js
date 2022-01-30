@@ -66,7 +66,7 @@ const lucks = [
     banner: "leopard-money",
   },
   {
-    keys: ["美"],
+    keys: ["美", "漂亮", "好看", "仙"],
     destiny:
       "👧🏻生气，你都已经这么美了，还要美下去，仙女都要嫉妒了！新的一年，你还是好好健身吧，毕竟都这么美了",
     classNames: ["gold-coins"],
@@ -81,7 +81,7 @@ const lucks = [
   },
 
   {
-    keys: ["吃", "火锅", "烤肉"],
+    keys: ["吃", "锅", "肉"],
     destiny:
       "🍚重庆火锅？东北烤肉？北京烤鸭？广东烧鹅？成都串串？河南胡辣汤？全部安排！！！",
     classNames: ["food"],
