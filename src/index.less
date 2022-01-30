@@ -104,8 +104,40 @@ body {
   box-shadow-color: pink !important;
 }
 
+.banner {
+  z-index: 1;
+  width: 300px;
+  height: 300px;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.leopard-money {
+  background-image: url("../public/imgs/leopard-money.png");
+}
+
+.leopard-all {
+  background-image: url("../public/imgs/leopard-all.jpeg");
+}
+
+.taohuayun {
+  width: 900px;
+  height: 400px;
+
+  animation: none;
+  background-image: url("../public/imgs/taohuayun.png");
+  background-repeat: no-repeat;
+  background-size: 666px;
+}
+
+.eat {
+  background-image: url("../public/imgs/eat.png");
+  background-size: 200px;
+}
+
 .blessing {
-  margin: 20px;
+  margin: 0 20px;
   font-size: 28px;
   font-weight: bold;
   color: gold;
@@ -136,7 +168,7 @@ body {
   background-size: contain;
   background-repeat: repeat;
   background-position: center;
-  animation: twinkle 0.3s infinite linear both;
+  animation: raining 0.3s infinite linear both;
 }
 
 .gold-coins {
@@ -151,18 +183,27 @@ body {
   background-image: url("../public/imgs/hua-bg.png");
 }
 
-.taohuayun {
-  animation: none;
-  background-image: url("../public/imgs/taohuayun.png");
-  background-repeat: no-repeat;
-  background-size: 666px;
+.food {
+  // animation-duration: 5s;
+  background-image: url("../public/imgs/food.png");
+
+  animation: inOut 5s infinite linear both alternate;
 }
 
-@keyframes twinkle {
+@keyframes raining {
   0% {
     top: -500px;
   }
   100% {
     top: 0;
+  }
+}
+
+@keyframes inOut {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
   }
 }

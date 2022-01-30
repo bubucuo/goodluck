@@ -89,6 +89,9 @@ export default function App(props) {
               ></div>
             ))}
 
+          <div
+            className={classnames(state.luck.banner, "banner", "center")}
+          ></div>
           <div className="blessing center">{state.luck?.destiny}</div>
           <button className="reset" onClick={reset}>
             一键重启
